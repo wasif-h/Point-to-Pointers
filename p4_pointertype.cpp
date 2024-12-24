@@ -28,5 +28,11 @@ int main()
 
     printf("%d\n", *(ptr0 + 1)); // show the value of second byte - which was allocated for ptr not ptr0
 
+    // void pointer ------
+    // by using this we dont need to typecast. But it has limitations. We can only use it to store address. We can not dereference or  use ptr + 1
+
+    void *ptr_v = ptr;
+    cout << ptr_v;
+
     return 0;
 }

@@ -12,8 +12,8 @@ int main()
     cout << "------int pointer -------"<<endl;
 
     int a = 5;
-    int *ptr;
-    ptr = &a;
+    int *ptr; // pointer variable
+    ptr = &a; // &a means the reference of variable a and we are storing this reference into pointer variable ptr 
     cout << a << endl;
     cout << ptr << endl;
     cout << &a << endl;
