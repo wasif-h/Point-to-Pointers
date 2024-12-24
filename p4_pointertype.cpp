@@ -17,18 +17,16 @@ int main()
     cout << ptr + 1 << endl;
     cout << *(ptr + 1) << endl;
 
-    //type casting to character data type
+    // type casting to character data type
 
-    char *ptr0 = (char*)ptr;
+    char *ptr0 = (char *)ptr;
 
     cout << "a in char" << endl;
     // cout cannot print char* directly as an address since it interprets it as a string
-    printf("%d\n",ptr0);
-    printf("%d\n",*ptr0);
-    printf("%d\n",*(ptr0+1));
-    
+    printf("%d\n", ptr0);
+    printf("%d\n", *ptr0); // show the value of first byte - because char holds 1 byte only
 
-
+    printf("%d\n", *(ptr0 + 1)); // show the value of second byte - which was allocated for ptr not ptr0
 
     return 0;
 }
