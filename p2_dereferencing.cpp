@@ -25,7 +25,7 @@ int main()
     // to change the address stored in ptr
     ptr = &b;
     cout << ptr << endl;
-    cout << *ptr << endl;
+    cout << *ptr << endl; 
 
     return 0;
 }
