@@ -67,7 +67,7 @@ Contributions are welcome! If you want to add code, questions, or notes, feel fr
 ## Youtube Recommendations
 [FreeCodeCamp](https://youtu.be/zuegQmMdy8M?si=s809M9CD0kd5yEoQ)
 
-[image](Asset/image.png)
+![image](./Asset/image.png)
 
 ---
 
