@@ -64,9 +64,8 @@ Contributions are welcome! If you want to add code, questions, or notes, feel fr
 3. Make your changes.
 4. Submit a pull request.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+## Youtube Recommendations
+[FreeCodeCamp](https://youtu.be/zuegQmMdy8M?si=s809M9CD0kd5yEoQ)
 
 ---
 
