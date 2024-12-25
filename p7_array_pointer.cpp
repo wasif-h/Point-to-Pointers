@@ -32,5 +32,13 @@ int main()
         cout << *(a + i) << endl;
     }
 
+    // so we can know that array name and pointer name would work similerly because both indicate the address of first element
+    cout << "Are pointer of array is same as the name of Array ? ------" << endl;
+    int b[] = {1,2,3,4,5};
+    int *ptr = b;
+    cout << b[2] << endl;
+    cout << ptr[2] << endl;
+    cout << *(ptr + 2) << endl;
+
     return 0;
 }
